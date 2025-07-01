@@ -5,9 +5,9 @@ export const appwriteConfig = {
   projectId: '685d40ba0010407d2c2e',
   databaseId: '686385b5001562043c4d',
   storageId: '686383e7000ac41d0678',
-  userCollectionId: import.meta.env.VITE_APPWRITE_USER_COLLECTION_ID,
-  postCollectionId: import.meta.env.VITE_APPWRITE_POST_COLLECTION_ID,
-  savesCollectionId: import.meta.env.VITE_APPWRITE_SAVES_COLLECTION_ID,
+  userCollectionId: '686386da0039da552998',
+  postCollectionId: '6863868f001655ac88e9',
+  savesCollectionId: '68638738001e7fb535c7',
 };
 
 export const client = new Client();
