@@ -134,7 +134,7 @@ const SignupForm = () => {
             name="password"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="shad-form_label">Password</FormLabel>
+                <FormLabel className="shad-form_label">密码</FormLabel>
                 <FormControl>
                   <Input type="password" className="shad-input" {...field} />
                 </FormControl>
@@ -149,7 +149,7 @@ const SignupForm = () => {
                 <Loader /> 加载中...
               </div>
             ) : (
-              "Sign Up"
+              "注册"
             )}
           </Button>
 
