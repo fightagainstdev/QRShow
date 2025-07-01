@@ -52,7 +52,7 @@ const FileUploader = ({ fieldChange, mediaUrl }: FileUploaderProps) => {
           />
 
           <h3 className="base-medium text-light-2 mb-2 mt-6">
-            Drag photo here
+            把图片拖到这里
           </h3>
           <p className="text-light-4 small-regular mb-6">SVG, PNG, JPG</p>
 
