@@ -29,6 +29,6 @@ export const ProfileValidation = z.object({
 export const PostValidation = z.object({
   caption: z.string().min(5, { message: "最少五个字符" }).max(2200, { message: "最多2200个字符" }),
   file: z.custom<File[]>(),
-  location: z.string().min(1, { message: "这片区域需要" }).max(1000, { message: "最多1000个字符"" }),
+  location: z.string().min(1, { message: "这片区域需要" }).max(1000, { message: "最多1000个字符" }),
   tags: z.string(),
 });
