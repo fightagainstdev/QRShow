@@ -14,7 +14,7 @@ const LikedPosts = () => {
   return (
     <>
       {currentUser.liked.length === 0 && (
-        <p className="text-light-4">No liked posts</p>
+        <p className="text-light-4">没有喜欢的帖子</p>
       )}
 
       <GridPostList posts={currentUser.liked} showStats={false} />
