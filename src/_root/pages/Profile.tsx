@@ -61,9 +61,9 @@ const Profile = () => {
             </div>
 
             <div className="flex gap-8 mt-10 items-center justify-center xl:justify-start flex-wrap z-20">
-              <StatBlock value={currentUser.posts.length} label="Posts" />
-              <StatBlock value={20} label="Followers" />
-              <StatBlock value={20} label="Following" />
+              <StatBlock value={currentUser.posts.length} label="帖子" />
+              <StatBlock value={20} label="关注者" />
+              <StatBlock value={20} label="正在关注" />
             </div>
 
             <p className="small-medium md:base-medium text-center xl:text-left mt-7 max-w-screen-sm">
@@ -85,7 +85,7 @@ const Profile = () => {
                   height={20}
                 />
                 <p className="flex whitespace-nowrap small-medium">
-                  Edit Profile
+                  编辑档案
                 </p>
               </Link>
             </div>
@@ -111,7 +111,7 @@ const Profile = () => {
               width={20}
               height={20}
             />
-            Posts
+            帖子
           </Link>
           <Link
             to={`/profile/${id}/liked-posts`}
@@ -124,7 +124,7 @@ const Profile = () => {
               width={20}
               height={20}
             />
-            Liked Posts
+            喜欢的帖子
           </Link>
         </div>
       )}
