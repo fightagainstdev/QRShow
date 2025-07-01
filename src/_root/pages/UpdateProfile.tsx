@@ -60,7 +60,7 @@ const UpdateProfile = () => {
 
     if (!updatedUser) {
       toast({
-        title: `Update user failed. Please try again.`,
+        title: `上传失败，请重新尝试`,
       });
     }
 
@@ -188,7 +188,7 @@ const UpdateProfile = () => {
                 className="shad-button_primary whitespace-nowrap"
                 disabled={isLoadingUpdate}>
                 {isLoadingUpdate && <Loader />}
-                Update Profile
+                上传档案
               </Button>
             </div>
           </form>
