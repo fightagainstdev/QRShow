@@ -8,7 +8,7 @@ const AllUsers = () => {
   const { data: creators, isLoading, isError: isErrorCreators } = useGetUsers();
 
   if (isErrorCreators) {
-    toast({ title: "Something went wrong." });
+    toast({ title: "发生了一些错误。" });
     
     return;
   }
